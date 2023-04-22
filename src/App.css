@@ -1,0 +1,46 @@
+.homePage
+{
+  height:100vh;
+  background-size: cover;
+  background-repeat: none;
+  background-image: url('./components/images/bg3.jpg');
+  
+}
+
+.heading{
+ text-align: center;
+ margin-left: 200px;
+  margin-top: 30vh;
+  color: black;
+}
+.image-about{
+  margin-left: 100px;
+}
+
+#links{
+  margin-left: 95%;
+  color: green;
+}
+#links:hover{
+  cursor: pointer;
+  color: white;
+  transition: 200ms;
+}
+#links1{
+  margin-left: 95%;
+  color: red;
+}
+#links1:hover{
+  cursor: pointer;
+  color: white;
+  transition: 200ms;
+}
+#links2{
+  margin-left: 95%;
+  color: blue;
+}
+#links2:hover{
+  cursor: pointer;
+  color: white;
+  transition: 200ms;
+}
