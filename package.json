@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Sahas-kr.github.io/ReactPortfolio",
-  "name": "bikeshowroom",
+  "homepage": "https://sahas-kr.github.io/ReactPortfolio",
+  "name": "ReactPortfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
