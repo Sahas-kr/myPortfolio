@@ -23,7 +23,7 @@
 }
 #links:hover{
   cursor: pointer;
-  color: white;
+  color: black;
   transition: 200ms;
 }
 #links1{
@@ -32,7 +32,7 @@
 }
 #links1:hover{
   cursor: pointer;
-  color: white;
+  color: black;
   transition: 200ms;
 }
 #links2{
@@ -41,6 +41,6 @@
 }
 #links2:hover{
   cursor: pointer;
-  color: white;
+  color: black;
   transition: 200ms;
 }
