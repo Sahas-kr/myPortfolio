@@ -36,11 +36,11 @@ function Component4() {
                         <div class="col-4">
                         <button class="btn btn-success rounded-pill">Download CV</button>
                         </div>
-                        <div class="col-8">
-                       <a href="#a"> <i class="fa-brands fa-facebook fa-xl mx-1 my-4"></i></a>
-                       <a href="#a"><i class="fa-brands fa-whatsapp fa-xl mx-1 my-4" style={{color: "green"}}></i></a>
-                       <a href="#a"> <i class="fa-brands fa-instagram fa-xl mx-1 my-4" style={{color: "red"}}></i></a>
-                       <a href="#a"> <i class="fa-brands fa-linkedin fa-xl mx-1 my-4"></i></a>
+                        <div class="col-8" >
+                       <a href="#a"> <i class="fa-brands fa-facebook fa-xl mx-1 my-4" id="link"></i></a>
+                       <a href="#a"><i class="fa-brands fa-whatsapp fa-xl mx-1 my-4" style={{color: "green"}} id="link"></i></a>
+                       <a href="#a"> <i class="fa-brands fa-instagram fa-xl mx-1 my-4" style={{color: "red"}} id="link"></i></a>
+                       <a href="#a"> <i class="fa-brands fa-linkedin fa-xl mx-1 my-4" id="link"></i></a>
                         </div>
                     </div>
                     

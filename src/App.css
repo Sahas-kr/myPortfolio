@@ -17,6 +17,15 @@
   margin-left: 100px;
 }
 
+#tabs{
+  background-color: white;
+  border-radius: 15px;
+}
+
+#tabs:hover{
+    background-color: rgb(219, 217, 217);    
+}
+
 #links{
   margin-left: 95%;
   color: green;
@@ -24,7 +33,13 @@
 #links:hover{
   cursor: pointer;
   color: black;
-  transition: 200ms;
+}
+#link{
+  transition: 300ms ease-in-out;
+}
+#link:hover{
+  cursor: pointer;
+  transform: scale(1.5);
 }
 #links1{
   margin-left: 95%;
