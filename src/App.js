@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter >
+      <BrowserRouter basename="">
       <Routes>
         <Route exact path="/ReactPortfolio" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
