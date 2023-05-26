@@ -1,25 +1,24 @@
-
-import { useState, useEffect } from "react";
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 function Components2(){
-    const [role, setRole] = useState('');
-    useEffect(()=>{
-        const arr = ["Developer", "Designer", "Freelancer"];
-        let i = -1;
-        const interval = setInterval(()=>{
-            if (i <= arr.length){
-                i = i+1;
-            }else {
-                i=0;
-            }
-            setRole(arr[i]);
-        },1500)
-        return ()=>clearInterval(interval);
+
+    
+    const [text1] = useTypewriter({
+        words: ['Developer', 'Programmer', 'Designer'],
+        loop: {},
+        typeSpeed: 100,
+        deleteSpeed: 80,
     })
     return(
-        <div class="heading">
-            <h1 >Sahas K R</h1>
-            <h3>
-            <span>  I'm a {role}</span>
+        <div class="heading"  >
+            <h1 style={{fontWeight:'bolder', fontSize:'70px'}}>Sahas K R</h1>
+            <h3 style={{fontSize:'30px', margin:'30px'}}>
+                I'm a {" "}
+                <span style={{color:"green"   }}>
+                    {text1}
+                </span>
+                <span >
+                    <Cursor  cursorStyle="|" cursorColor='green' cursorBlinking=""/>
+                </span>
             </h3>
         </div>
     );

@@ -5,17 +5,17 @@ import Components9 from "./Components9";
 
 export default function Components7(){
     return(
-        <div>
+        <div className="container1">
 
             <div class="me-5">
-            <h6 class="text-center" style={{marginTop: "90px"}}>Check out my resume</h6>
-            <h1 class="text-center">Resume</h1>
-            <div class="loader" style={{marginLeft: "46.1%"}}></div>
+            <h6 class="text-center" style={{marginTop: "90px"}}  id='loadingResp460'>Check out my resume</h6>
+            <h1 class="text-center"  id='loadingResp460'>Resume</h1>
+            <div class="loader" id='loading'></div>
             </div>
 
-            <div class="row" style={{marginLeft: "90px", marginTop: "90px"}}>
+            <div class="row"  id="resResponsive">
 
-                <div class="row ms-5">
+                <div class="row ms-5" >
                 <div class="col-6 ">
                 <h3>Education</h3>
                     <Components8 title="MERN Full Stack" title1="ETHNUS / 2022"/>
@@ -32,7 +32,7 @@ export default function Components7(){
                
                
                 <div class="row ms-5 mt-5">
-                         <div class=" mt-5">
+                         <div class=" mt-5" id="mySkills">
                               <h6>My level of knowledge in some tools</h6>
                               <h1>My Skills</h1>
                          </div>

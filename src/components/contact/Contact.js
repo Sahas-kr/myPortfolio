@@ -3,7 +3,7 @@ import Components11 from "./Components11";
 
 export default function Contact(){
     return(
-        <div>
+        <div  className="aboutPage">
             <Component1/>
             <Components11/>
         </div>

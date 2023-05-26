@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sahas-kr.github.io/portfolioProject",
-  "name": "portfolioProject",
+  "homepage": "https://sahas-kr.github.io/myPortfolio",
+  "name": "myPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tsparticles": "^2.9.3",
+    "tsparticles": "^2.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

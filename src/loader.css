@@ -17,6 +17,8 @@
     width: 100px;
     height: 3px;
     background: white;
+    margin-left: "46.1%";
+     margin-bottom: "75px"
     /* -webkit-box-reflect: below 1px linear-gradient(transparent); */
 }
 
@@ -49,5 +51,4 @@
         background-position: 500% 0;
     }
 }
-
 

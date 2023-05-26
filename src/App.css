@@ -3,13 +3,23 @@
   height:100vh;
   background-size: cover;
   background-repeat: none;
-  background-image: url('./components/images/bg3.jpg');
+  /* background-image: url('./components/images/bg2.jpg'); */
+  /* background: linear-gradient( white 30%, rgb(115, 213, 238)); */
+  
+}
+.aboutPage
+{
+  /* height:100vh; */
+  background-size: cover;
+  background-repeat: repeat-y;
+  /* background-image: url('./components/images/bg2.jpg'); */
+  /* background: linear-gradient( white 30%, rgb(115,213,238)); */
   
 }
 
 .heading{
  text-align: center;
- margin-left: 200px;
+ /* margin-left: 200px; */
   margin-top: 30vh;
   color: black;
 }
@@ -18,7 +28,7 @@
 }
 
 #tabs{
-  background-color: white;
+  background-color: transparent;
   border-radius: 15px;
 }
 
@@ -58,4 +68,289 @@
   cursor: pointer;
   color: black;
   transition: 200ms;
+}
+
+
+/* hover image project */
+.img-fluid{
+  transition: 200ms ease-in-out;
+}
+.img-fluid:hover{
+  scale: 1.05;
+}
+#loading{
+  margin-left: 46.1%;
+   margin-bottom: 75px
+}
+#loading1{
+  margin-left: 46.1%;
+   margin-bottom: 75px
+}
+#textResponsive{
+  margin: 0px;
+}
+#imageResponsive img{
+  max-width: 320px;
+  height: 300px;
+  width: 200px;
+  object-fit: contain;
+}
+
+#resResponsive{
+  width: 100%;
+ padding: 0 0 0 190px;
+}
+
+#projectsResponsive{
+  margin-left: 63px;
+}
+
+
+
+
+/* responsive */
+
+.container1{
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (max-width: 1536px){
+  .container1{
+    max-width: 1280px;
+  }
+
+}
+
+
+@media (max-width: 1280px){
+  .container1{
+    max-width: 1024px;
+  }
+  #iconic{
+    margin-right: 125px;
+  }
+  #loading{
+    margin-left: 45%;
+  }
+  #loading1{
+    margin-left: 45%;
+  }
+  #imageResponsive{
+    height: 100px;
+    width: 20px; 
+  }
+  #aboutResponsive{
+    justify-content: space-between;
+  }
+  #resResponsive{
+    width: 100%;
+    padding-left: 130px;
+  }
+  #projectsResponsive{
+    margin-left: 30px;
+  }
+}
+
+
+@media (max-width: 1024px){
+  .container1{
+    max-width: 768px;
+  }
+  #iconic{
+    margin-right: 100px;
+    margin-top: 150px;
+  }
+  #loading{
+    margin-left: 43%;
+  }
+  #loading1{
+    margin-left: 43%;
+  }
+  
+  #textResponsive h6{
+    margin-left: 200px;  
+  }
+  #textResponsive p,
+  #textResponsive hr
+  {
+    margin-left: 70px;
+  }
+  #afterPResponsive{
+    margin-left: 70px;
+    justify-content: space-between;
+  }
+  #resResponsive{
+    margin: 0;
+    width: 100%;
+    padding-left: 10px;
+    text-align: center;
+  }
+  #resResponsive h3{
+    text-align: start;
+    margin: 25px;
+  }
+  #mySkills{
+    text-align: start;
+    margin-left: 160px;
+  }
+  #mySkills h1{
+    margin-left: 55px;
+  }
+  #projectsResponsive{
+    margin-left: 10px;
+  }
+  #btnResponsive{
+    width: 100%;
+    margin-left: 130px;
+  }
+}
+
+
+
+@media (max-width: 768px){
+  .container1{
+    max-width: 640px;
+  }
+  #iconic{
+    margin-right: 75px;
+    margin-top: 150px;
+  }
+  #loading{
+    margin-left: 42%;
+  }
+  #loading1{
+    margin-left: 42%;
+  }
+  #textResponsive p,
+  #textResponsive hr
+  {
+    margin-left: 100px;
+  }
+ 
+  #mySkills{
+    text-align: start;
+    margin-left: 90px;
+  }
+  #mySkills h1{
+    margin-left: 65px;
+  }
+  #resResponsive h3{
+    text-align: start;
+    margin-left: 8px;
+  }
+
+}
+
+
+
+@media (max-width: 640px){
+  .container1{
+    max-width: 475px;
+  }
+  #iconic{
+    margin-right: 50px;
+    margin-top: 125px;
+  }
+  #loading{
+    margin-left: 38%;
+  }
+  #loading1{
+    margin-left: 40%;
+  }
+  #aboutResponsive{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #textResponsive h6{
+    margin-top: 250px;
+    margin-left: 160px;
+  }
+  #textResponsive p{
+    width: 100%;
+    margin-left: 67px;
+    text-align: center;
+  }
+  #textResponsive hr{
+    margin-left: 140px;
+  }
+  #afterPResponsive{
+    width: 100%;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+  }
+  #resResponsive h3{
+    text-align: start;
+    margin-left: 0px;
+  }
+  #resResponsive{
+    margin: 0;
+  }
+  #mySkills {
+    margin-left: 15px;
+  }
+  #btnResponsive{
+    width: 100%;
+    margin-left: 90px;
+  }
+
+}
+
+
+
+@media (max-width: 475px){
+  .container1{
+    max-width: 100%;
+  }
+  #loading{
+    margin-left: 47%;
+  }
+  #loading1{
+    margin-left: 43%;
+  }
+  #loadingResp460{
+    margin-left: 20%;
+  }
+  #aboutResponsive{
+    width: 100%;
+  }
+  #imageResponsive{
+   margin: 0;
+  }
+  #textResponsive h6{
+    width: 100%;
+    margin-left: 160px;
+  }
+  #textResponsive p,
+  #textResponsive hr{
+    width: 100%;
+    margin-left: 90px;
+  }
+  #mySkills {
+    margin-left: 30px;
+  }
+  #projectsResponsive{
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-150px);
+  }
+  #projectsResponsive img{
+    scale: 2.0;
+  }
+  #loadingResp460{
+    margin-left: 30px;
+  }
+  #btnResponsive{
+    width: 100%;
+    margin-left: 50px;
+  }
+
 }

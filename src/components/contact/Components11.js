@@ -2,9 +2,9 @@ export default function Components11(){
     return(
         <div>
             <div class="me-5">
-            <h6 class="text-center" style={{marginTop: "90px"}}>Feel free to contact me anytime</h6>
-            <h1 class="text-center">Get in Touch</h1>
-            <div class="loader" style={{marginLeft: "46.1%"}}></div>
+            <h6 class="text-center" style={{marginTop: "90px"}} id='loadingResp460'>Feel free to contact me anytime</h6>
+            <h1 class="text-center" id='loadingResp460'>Get in Touch</h1>
+            <div class="loader"  id='loading'></div>
             </div>
 
             <div className="row" style={{marginLeft: "22%", marginTop: "60px"}}>
@@ -23,7 +23,7 @@ export default function Components11(){
                         <div class="input-group rows-4">
                              <textarea class="form-control" placeholder="Message"></textarea>
                         </div>
-                        <div class="col-4 my-4">
+                        <div class="col-4 my-4" id="btnResponsive">
                              <button class="btn btn-success rounded-pill">Send Message</button>
                         </div>
                     </div>
