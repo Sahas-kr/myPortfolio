@@ -15,26 +15,26 @@ function Component12() {
 
             <div className="row"  id="projectsResponsive">
                 <div className="col-4 ms-auto " >
-                    <Link to={'https://sahas-kr.github.io/weatherApp/'}><img src={pic} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+                    <Link to={'https://sahas-kr.github.io/weatherApp/'} target="blank"><img src={pic} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
+                    <p className="mt-3 "><b>1. Weather app.</b></p>
                 </div>
                 <div className="col-4 ms-auto">
-                    <Link to={'https://sahas-kr.github.io/calculatorApp/'}><img src={pic1} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+                    <Link to={'https://sahas-kr.github.io/calculatorApp/'}  target="blank"><img src={pic1} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
+                    <p className="mt-3"><b>2. Basic Calculator.</b></p>
                 </div>
                 <div className="col-4 ms-auto">
-                    <Link to={'https://sahas-kr.github.io/crudApp/'}><img src={pic2} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+                    <Link to={'https://sahas-kr.github.io/crudApp/'}  target="blank"><img src={pic2} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
+                    <p className="mt-3"><b>3. CRUD app.</b></p>
                 </div>
             </div>
             <div className="row" style={{ marginTop:"80px"}} id="projectsResponsive">
                 <div className="col-4 ms-auto ">
-                    <Link to={'https://sahas-kr.github.io/stopWatch/'}><img src={pic3} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+                    <Link to={'https://sahas-kr.github.io/stopWatch/'}  target="blank"><img src={pic3} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
+                    <p className="mt-3"><b>4. Stopwatch.</b></p>
                 </div>
                 <div className="col-4 ms-auto">
-                    <Link to={'https://sahas-kr.github.io/ageCalculator/'}><img src={pic4} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
-                    <p className="mt-3">Lorem ipsum dolor sit amet consectetur.</p>
+                    <Link to={'https://sahas-kr.github.io/ageCalculator/'}  target="blank"><img src={pic4} class="img-fluid" alt="..." height="325px" width="325px"/></Link>
+                    <p className="mt-3"><b>5. Age calculator.</b></p>
                 </div>
                 <div className="col-4 ms-auto">
                     {/* <Link><img src={pic} class="img-fluid" alt="..." height="325px" width="325px"/></Link>

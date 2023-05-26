@@ -99,6 +99,7 @@
 #resResponsive{
   width: 100%;
  padding: 0 0 0 190px;
+ text-align: justify;
 }
 
 #projectsResponsive{
@@ -149,6 +150,7 @@
   #resResponsive{
     width: 100%;
     padding-left: 130px;
+    text-align: justify;
   }
   #projectsResponsive{
     margin-left: 30px;
@@ -187,7 +189,7 @@
     margin: 0;
     width: 100%;
     padding-left: 10px;
-    text-align: center;
+    text-align: justify;
   }
   #resResponsive h3{
     text-align: start;
@@ -241,6 +243,7 @@
   #resResponsive h3{
     text-align: start;
     margin-left: 8px;
+    text-align: justify;
   }
 
 }
@@ -291,6 +294,7 @@
   }
   #resResponsive{
     margin: 0;
+    text-align: justify;
   }
   #mySkills {
     margin-left: 15px;
@@ -352,5 +356,72 @@
     width: 100%;
     margin-left: 50px;
   }
+  #resResponsive{
+    text-align: justify;
+  }
 
+}
+
+@media (max-width:415px ){
+  .container1{
+    max-width: 100%;
+  }
+  #loading{
+    margin-left: 39%;
+  }
+  #loading1{
+    margin-left: 40%;
+  }
+  #loadingResp460{
+    margin-left: 5%;
+  }
+  #aboutResponsive{
+    width: 100%;
+  }
+  #imageResponsive{
+   transform: translate(-23px);
+  }
+  #textResponsive h6{
+    width: 100%;
+    margin-left: 135px;
+  }
+  #textResponsive p,
+  #textResponsive hr{
+    width: 100%;
+    margin-left: 55px;
+  }
+  #afterPResponsive{
+    width: 100%;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+  #resResponsive{
+   transform: translate(-25px);
+   text-align: justify;
+  }
+  #projectsResponsive p{
+    visibility: hidden;
+  }
+  #mySkills {
+    margin-left: 5px;
+  }
+  #projectsResponsive{
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-150px);
+  }
+  #projectsResponsive img{
+    margin: 10px;
+    margin-bottom: 50px;
+  }
+  #btnResponsive{
+   transform: translate(-50px);
+    
+  }
+  #topHdngResponsive{
+    margin-left: 35px;
+  }
 }

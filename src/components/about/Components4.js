@@ -13,11 +13,11 @@ function Component4() {
                 </div>
                 <div class="col-8" id='textResponsive'>
                     <h6 class="text-success">Who am I?</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium necessitatibus, dignissimos facere quia nemo dolore ad perferendis in itaque odio accusamus provident! Ratione, distinctio. Eligendi ea aspernatur ad quod omnis amet error suscipit dolore fuga dolorem! Voluptatem reiciendis natus blanditiis, sit quam quisquam nihil tenetur molestias similique ratione, quibusdam sunt.</p>
+                    <p><b>I'm Sahas, </b>A motivated web developer looking for an opportunity to work in a challenging environment to prove my technical skills in an industry that offers professional growth and be a part of the company’s growth while being resourceful and flexible.</p>
                     <hr></hr>
                     <div class="row">
                         <div class="col-6">
-                            <p>Name: Sahas K R</p>
+                            <p>Name: SAHAS.K.R </p>
                         </div>
                         <div class="col-6">
                             <p>Email: <a href="#a" class="text-success" style={{ textDecoration: "none" }}>sahasiyer23@gmail.com</a></p>
@@ -37,10 +37,10 @@ function Component4() {
                             <button class="btn btn-success rounded-pill">Download CV</button>
                         </div>
                         <div class="col-8" >
-                            <a href="#a"> <i class="fa-brands fa-facebook fa-xl mx-1 my-4" id="link"></i></a>
+                            <a href="https://www.facebook.com/sahas.iyer.3"> <i class="fa-brands fa-facebook fa-xl mx-1 my-4" id="link"></i></a>
                             {/* <a href="#a"><i class="fa-brands fa-whatsapp fa-xl mx-1 my-4" style={{color: "green"}} id="link"></i></a> */}
-                            <a href="#a"> <i class="fa-brands fa-instagram fa-xl mx-1 my-4" style={{ color: "red" }} id="link"></i></a>
-                            <a href="#a"> <i class="fa-brands fa-linkedin fa-xl mx-1 my-4" id="link"></i></a>
+                            <a href="https://www.instagram.com/sahas_kr/"> <i class="fa-brands fa-instagram fa-xl mx-1 my-4" style={{ color: "red" }} id="link"></i></a>
+                            <a href="https://www.linkedin.com/in/sahas-k-r-832aab216/"> <i class="fa-brands fa-linkedin fa-xl mx-1 my-4" id="link"></i></a>
                         </div>
                     </div>
                 </div>
