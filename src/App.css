@@ -1,70 +1,77 @@
-.homePage
-{
-  height:100vh;
+.homePage {
+  height: 100vh;
   background-size: cover;
   background-repeat: none;
   /* background-image: url('./components/images/bg2.jpg'); */
   /* background: linear-gradient( white 30%, rgb(115, 213, 238)); */
-  
+
 }
-.aboutPage
-{
+
+.aboutPage {
   /* height:100vh; */
   background-size: cover;
   background-repeat: repeat-y;
   /* background-image: url('./components/images/bg2.jpg'); */
   /* background: linear-gradient( white 30%, rgb(115,213,238)); */
-  
+
 }
 
-.heading{
- text-align: center;
- /* margin-left: 200px; */
+.heading {
+  text-align: center;
+  /* margin-left: 200px; */
   margin-top: 30vh;
   color: black;
 }
-.image-about{
+
+.image-about {
   margin-left: 100px;
 }
 
-#tabs{
+#tabs {
   background-color: transparent;
   border-radius: 15px;
 }
 
-#tabs:hover{
-    background-color: rgb(219, 217, 217);    
+#tabs:hover {
+  background-color: rgb(219, 217, 217);
 }
 
-#links{
+#links {
   margin-left: 95%;
   color: green;
 }
-#links:hover{
+
+#links:hover {
   cursor: pointer;
   color: black;
 }
-#link{
+
+#link {
   transition: 300ms ease-in-out;
 }
-#link:hover{
+
+#link:hover {
   cursor: pointer;
   transform: scale(1.5);
 }
-#links1{
+
+#links1 {
   margin-left: 95%;
   color: red;
 }
-#links1:hover{
+
+#links1:hover {
   cursor: pointer;
   color: black;
   transition: 200ms;
 }
-#links2{
+
+#links2 {
   margin-left: 95%;
   color: blue;
 }
-#links2:hover{
+
+#links2:hover {
   cursor: pointer;
   color: black;
   transition: 200ms;
@@ -72,37 +79,42 @@
 
 
 /* hover image project */
-.img-fluid{
+.img-fluid {
   transition: 200ms ease-in-out;
 }
-.img-fluid:hover{
+
+.img-fluid:hover {
   scale: 1.05;
 }
-#loading{
+
+#loading {
   margin-left: 46.1%;
-   margin-bottom: 75px
+  margin-bottom: 75px
 }
-#loading1{
+
+#loading1 {
   margin-left: 46.1%;
-   margin-bottom: 75px
+  margin-bottom: 75px
 }
-#textResponsive{
+
+#textResponsive {
   margin: 0px;
 }
-#imageResponsive img{
+
+#imageResponsive img {
   max-width: 320px;
   height: 300px;
   width: 200px;
   object-fit: contain;
 }
 
-#resResponsive{
+#resResponsive {
   width: 100%;
- padding: 0 0 0 190px;
- text-align: justify;
+  padding: 0 0 0 190px;
+  text-align: justify;
 }
 
-#projectsResponsive{
+#projectsResponsive {
   margin-left: 63px;
 }
 
@@ -111,7 +123,7 @@
 
 /* responsive */
 
-.container1{
+.container1 {
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;
@@ -119,93 +131,109 @@
   padding-right: 0.5rem;
 }
 
-@media (max-width: 1536px){
-  .container1{
+@media (max-width: 1536px) {
+  .container1 {
     max-width: 1280px;
+  }
+
+  ul {
+    text-align: start;
   }
 
 }
 
 
-@media (max-width: 1280px){
-  .container1{
+@media (max-width: 1280px) {
+  .container1 {
     max-width: 1024px;
   }
-  #iconic{
+
+  #iconic {
     margin-right: 125px;
   }
-  #loading{
+
+  #loading {
     margin-left: 45%;
   }
-  #loading1{
+
+  #loading1 {
     margin-left: 45%;
   }
-  #imageResponsive{
+
+  #imageResponsive {
     height: 100px;
-    width: 20px; 
+    width: 20px;
   }
-  #aboutResponsive{
+
+  #aboutResponsive {
     justify-content: space-between;
   }
-  #resResponsive{
+
+  #resResponsive {
     width: 100%;
     padding-left: 130px;
     text-align: justify;
   }
-  #projectsResponsive{
+
+  #projectsResponsive {
     margin-left: 30px;
   }
 }
 
 
-@media (max-width: 1024px){
-  .container1{
+@media (max-width: 1024px) {
+  .container1 {
     max-width: 768px;
   }
-  #iconic{
+
+  #iconic {
     margin-right: 100px;
     margin-top: 150px;
   }
-  #loading{
+
+  #loading {
     margin-left: 43%;
   }
-  #loading1{
+
+  #loading1 {
     margin-left: 43%;
   }
-  
-  #textResponsive h6{
-    margin-left: 200px;  
+
+  #textResponsive h6 {
+    margin-left: 200px;
   }
+
   #textResponsive p,
-  #textResponsive hr
-  {
+  #textResponsive hr {
     margin-left: 70px;
   }
-  #afterPResponsive{
-    margin-left: 70px;
-    justify-content: space-between;
-  }
-  #resResponsive{
+
+  #resResponsive {
     margin: 0;
     width: 100%;
     padding-left: 10px;
     text-align: justify;
   }
-  #resResponsive h3{
+
+  #resResponsive h3 {
     text-align: start;
     margin: 25px;
   }
-  #mySkills{
+
+  #mySkills {
     text-align: start;
     margin-left: 160px;
   }
-  #mySkills h1{
+
+  #mySkills h1 {
     margin-left: 55px;
   }
-  #projectsResponsive{
+
+  #projectsResponsive {
     margin-left: 10px;
   }
-  #btnResponsive{
+
+  #btnResponsive {
     width: 100%;
     margin-left: 130px;
   }
@@ -213,93 +241,119 @@
 
 
 
-@media (max-width: 768px){
-  .container1{
+@media (max-width: 768px) {
+  .container1 {
     max-width: 640px;
   }
-  #iconic{
+
+  #iconic {
     margin-right: 75px;
     margin-top: 150px;
   }
-  #loading{
+
+  #loading {
     margin-left: 42%;
   }
-  #loading1{
+
+  #loading1 {
     margin-left: 42%;
   }
+
   #textResponsive p,
-  #textResponsive hr
-  {
+  #textResponsive hr {
     margin-left: 100px;
   }
- 
-  #mySkills{
+
+  #mySkills {
     text-align: start;
     margin-left: 90px;
   }
-  #mySkills h1{
+
+  #mySkills h1 {
     margin-left: 65px;
   }
-  #resResponsive h3{
+
+  #resResponsive h3 {
     text-align: start;
     margin-left: 8px;
     text-align: justify;
   }
 
+  #afterPResponsive p {
+    transform: translate(-30px);
+  }
+
+  #afterPResponsive a {
+    margin-left: 30px;
+  }
+
 }
 
 
 
-@media (max-width: 640px){
-  .container1{
+@media (max-width: 640px) {
+  .container1 {
     max-width: 475px;
   }
-  #iconic{
+
+  #iconic {
     margin-right: 50px;
     margin-top: 125px;
   }
-  #loading{
+
+  #loading {
     margin-left: 38%;
   }
-  #loading1{
+
+  #loading1 {
     margin-left: 40%;
   }
-  #aboutResponsive{
+
+  #aboutResponsive {
     margin: 15px;
     display: flex;
     flex-direction: column;
-    
+
   }
-  #textResponsive h6{
+
+  #textResponsive h6 {
     margin-top: 250px;
     margin-left: 160px;
   }
-  #textResponsive p{
+
+  #textResponsive p {
     width: 100%;
     margin-left: 67px;
     text-align: center;
   }
-  #textResponsive hr{
+
+  #textResponsive hr {
     margin-left: 140px;
   }
-  #afterPResponsive{
-    width: 100%;
-    margin-left: 135px;
-    display: flex;
-    flex-direction: column;
+
+  #afterPResponsive p {
+    transform: translate(0px);
   }
-  #resResponsive h3{
+
+  #iconResponsive {
+    margin-left: 90px;
+  }
+
+  #resResponsive h3 {
     text-align: start;
     margin-left: 0px;
   }
-  #resResponsive{
+
+  #resResponsive {
     margin: 0;
     text-align: justify;
   }
+
   #mySkills {
     margin-left: 15px;
   }
-  #btnResponsive{
+
+  #btnResponsive {
     width: 100%;
     margin-left: 90px;
   }
@@ -308,120 +362,151 @@
 
 
 
-@media (max-width: 475px){
-  .container1{
+@media (max-width: 475px) {
+  .container1 {
     max-width: 100%;
   }
-  #loading{
+
+  #loading {
     margin-left: 47%;
   }
-  #loading1{
+
+  #loading1 {
     margin-left: 43%;
   }
-  #loadingResp460{
+
+  #loadingResp460 {
     margin-left: 20%;
   }
-  #aboutResponsive{
+
+  #aboutResponsive {
     width: 100%;
   }
-  #imageResponsive{
-   margin: 0;
+
+  #imageResponsive {
+    margin: 0;
   }
-  #textResponsive h6{
+
+  #textResponsive h6 {
     width: 100%;
     margin-left: 160px;
   }
+
   #textResponsive p,
-  #textResponsive hr{
+  #textResponsive hr {
     width: 100%;
     margin-left: 90px;
   }
+
   #mySkills {
     margin-left: 30px;
   }
-  #projectsResponsive{
+
+  #projectsResponsive {
     width: 100%;
     max-width: 640px;
     display: flex;
     flex-direction: column;
     transform: translate(-150px);
   }
-  #projectsResponsive img{
+
+  #projectsResponsive img {
     scale: 2.0;
   }
-  #loadingResp460{
+
+  #loadingResp460 {
     margin-left: 30px;
   }
-  #btnResponsive{
+
+  #btnResponsive {
     width: 100%;
     margin-left: 50px;
   }
-  #resResponsive{
+
+  #resResponsive {
     text-align: justify;
   }
 
 }
 
-@media (max-width:415px ){
-  .container1{
+@media (max-width:415px) {
+  .container1 {
     max-width: 100%;
   }
-  #loading{
-    margin-left: 39%;
+
+  #loading {
+    margin-left: 37%;
   }
-  #loading1{
+
+  #loading1 {
     margin-left: 40%;
   }
-  #loadingResp460{
+
+  #loadingResp460 {
     margin-left: 5%;
   }
-  #aboutResponsive{
+
+  #aboutResponsive {
     width: 100%;
   }
-  #imageResponsive{
-   transform: translate(-23px);
+
+  #imageResponsive {
+    transform: translate(-23px);
   }
-  #textResponsive h6{
+
+  #textResponsive h6 {
     width: 100%;
     margin-left: 135px;
   }
+
   #textResponsive p,
-  #textResponsive hr{
+  #textResponsive hr {
     width: 100%;
     margin-left: 55px;
   }
-  #afterPResponsive{
-    width: 100%;
-    margin-left: 110px;
-    display: flex;
-    flex-direction: column;
+
+  #afterPResponsive p {
+    transform: translate(0px);
   }
-  #resResponsive{
-   transform: translate(-25px);
-   text-align: justify;
+
+  #iconResponsive {
+    margin-left: 70px;
   }
-  #projectsResponsive p{
+
+  #resResponsive {
+    margin: 0 50px;
+    text-align: justify;
+    overflow: hidden;
+  }
+
+  #projectsResponsive p {
     visibility: hidden;
   }
+
   #mySkills {
-    margin-left: 5px;
+    transform: translate(-70px);
   }
-  #projectsResponsive{
+
+  #projectsResponsive {
     width: 100%;
     max-width: 640px;
     display: flex;
     flex-direction: column;
     transform: translate(-150px);
   }
-  #projectsResponsive img{
+
+  #projectsResponsive img {
     margin: 10px;
     margin-bottom: 50px;
+
   }
-  #btnResponsive{
-   transform: translate(-50px);
-    
+
+  #btnResponsive {
+    transform: translate(-50px);
+
   }
-  #topHdngResponsive{
+
+  #topHdngResponsive {
     margin-left: 35px;
   }
 }

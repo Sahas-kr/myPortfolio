@@ -8,11 +8,11 @@ export default function Components11(){
     // function setError(ele,msg){
 
     // }
-
-
     const submit = () => {
         window.alert("Message sent successfully")
     } 
+
+
     return(
         <div>
             <div class="me-5" id="topHdngResponsive">
@@ -24,22 +24,35 @@ export default function Components11(){
             <div className="row" style={{marginLeft: "22%", marginTop: "60px"}}>
                 <div className="col-8 ">
                     <h3>Message me</h3>
-                    <form>
+                    <form className="needs-validation" noValidate>
                     <div class="row mt-4">
                          <div class="col-6">
                             <input type="text" class="form-control" placeholder="Name" id="name"></input>
                          </div>
+                         <div className="invalid-feedback">
+                            <p>Please enter your name</p>
+                         </div>
                          <div class="col-6">
                              <input type="email" class="form-control" placeholder="Email" id="email" ></input>
+                         </div>
+                         <div className="invalid-feedback">
+                            <p>Please enter your email id</p>
                          </div>
                          <div class="col my-4">
                              <input type="text" class="form-control" placeholder="Subject" id="subject"></input>
                         </div>
+                        <div className="invalid-feedback">
+                            <p>Please enter the subject</p>
+                         </div>
                         <div class="input-group rows-4">
                              <textarea class="form-control" placeholder="Message" id="message"></textarea>
                         </div>
+                        <div className="invalid-feedback">
+                            <p>Please enter your message</p>
+                         </div>
                         <div class="col-4 my-4" id="btnResponsive">
                              <button class="btn btn-success rounded-pill" onClick={submit}>Send Message</button>
+                             {/* <input type='submit' className="btn btn-success rounded-pill" value='Send Message'/> */}
                         </div>
                     </div>
                     </form>
