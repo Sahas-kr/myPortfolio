@@ -10,7 +10,7 @@ function Component12() {
         <div className="container1">
             
             <h6 class="text-center" style={{ marginTop: "50px" }}  id='loadingResp460'>Check out my latest projects</h6>
-            <h1 class="text-center"  id='loadingResp460'>My Projects</h1>
+            <h1 class="text-center text-success"  id='loadingResp460'>My Projects</h1>
             <div class="loader"  id='loading1' ></div>
 
             <div className="row"  id="projectsResponsive">

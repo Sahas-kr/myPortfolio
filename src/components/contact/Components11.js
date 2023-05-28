@@ -17,7 +17,7 @@ export default function Components11(){
         <div>
             <div class="me-5" id="topHdngResponsive">
             <h6 class="text-center" style={{marginTop: "90px"}} id='loadingResp460'>Feel free to contact me anytime</h6>
-            <h1 class="text-center" id='loadingResp460'>Get in Touch</h1>
+            <h1 class="text-center text-success" id='loadingResp460'>Get in Touch</h1>
             <div class="loader"  id='loading'></div>
             </div>
 

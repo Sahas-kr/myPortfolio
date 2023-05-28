@@ -91,6 +91,10 @@
   margin-left: 46.1%;
   margin-bottom: 75px
 }
+#loading2 {
+  margin-left: 46.1%;
+  margin-bottom: 75px
+}
 
 #loading1 {
   margin-left: 46.1%;
@@ -155,6 +159,9 @@
   #loading {
     margin-left: 45%;
   }
+  #loading2 {
+    margin-left: 45%;
+  }
 
   #loading1 {
     margin-left: 45%;
@@ -192,6 +199,9 @@
   }
 
   #loading {
+    margin-left: 43%;
+  }
+  #loading2 {
     margin-left: 43%;
   }
 
@@ -254,6 +264,9 @@
   #loading {
     margin-left: 42%;
   }
+  #loading2 {
+    margin-left: 42%;
+  }
 
   #loading1 {
     margin-left: 42%;
@@ -302,6 +315,9 @@
   }
 
   #loading {
+    margin-left: 38%;
+  }
+  #loading2 {
     margin-left: 38%;
   }
 
@@ -370,6 +386,9 @@
   #loading {
     margin-left: 47%;
   }
+  #loading2 {
+    margin-left: 47%;
+  }
 
   #loading1 {
     margin-left: 43%;
@@ -435,11 +454,14 @@
   }
 
   #loading {
-    margin-left: 37%;
+    margin-left: 39.5%;
   }
 
   #loading1 {
     margin-left: 40%;
+  }
+  #loading2 {
+    margin-left: 36.5%;
   }
 
   #loadingResp460 {

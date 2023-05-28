@@ -5,7 +5,7 @@ function Component4() {
         <div className='container1'>
 
             <h6 class="text-center" style={{ marginTop: "50px" }} id='loadingResp460'>Get to know me</h6>
-            <h1 class="text-center" id='loadingResp460'>About Me</h1>
+            <h1 class="text-center text-success" id='loadingResp460'>About Me</h1>
             <div class="loader" id='loading'></div>
             <div class="row" id='aboutResponsive'> 
                 <div class="col-3 me-5" id='imageResponsive'>
