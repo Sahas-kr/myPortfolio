@@ -32,7 +32,7 @@ export default function Components7() {
                     <div className="row mt-5">
                         <div class="col-md-4">
                             <p><b>Link to download my Resume:</b></p>
-                            <Link to={'https://drive.google.com/file/d/1BSioLdDrIN-ToDkVo8pz2oy1ouERnVYk/view?usp=drivesdk'} target="blank">
+                            <Link to={'https://drive.google.com/file/d/1EFXZt6ujKLYbUEJDRmdyLsPjeK2442Q6/view?usp=drivesdk'} target="blank">
                             <button class="btn btn-success rounded-pill">Download </button>
                             </Link>
                         </div>
