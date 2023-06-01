@@ -18,7 +18,7 @@ export default function Components7() {
 
                 <div class="row justify-content-md-center ms-5 " >
                     <div class="col-md-6 " >
-                        <h3 className="text-success">Education</h3>
+                        <h3 className="text-success"> Education</h3>
                         <Components8 title="MERN Full Stack" title1="ETHNUS / 2022" definition="I joined Ethnus on August 2022 to study MERN fullstack course." definition1="With excellent trainers, I learned the course with more interest, also gained some practical knowledge. " />
                         <Components8 title="Civil Engineering" title1="SCE / 2014-2018" definition="I studied Civil Engineering at Sapthagiri College Of Engineering, Bengaluru." definition1="Without any backlogs, I successfully graduated in the year 2018."/>
                         <Components8 title="PUC, Science" title1="Vijaya PU College / 2012-2014" definition="I studied at The Bangalore Education Society till 10th standard." definition1="Later for my 11th & 12th I opted for Biology to get to know the basics of life." />
@@ -33,7 +33,7 @@ export default function Components7() {
                         <div class="col-md-4">
                             <p><b>Link to download my Resume:</b></p>
                             <Link to={'https://drive.google.com/file/d/1EFXZt6ujKLYbUEJDRmdyLsPjeK2442Q6/view?usp=drivesdk'} target="blank">
-                            <button class="btn btn-success rounded-pill">Download </button>
+                            <button class="btn btn-success rounded-pill">Download <i class="fa-solid fa-circle-down fa-bounce"></i> </button>
                             </Link>
                         </div>
                     </div>

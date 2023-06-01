@@ -1,17 +1,29 @@
+// import { useState } from "react"
+import emailjs from 'emailjs-com'
+
 export default function Components11(){
 
-    // const nameEl  = document.getElementById('name');
-    // const emailEl = document.getElementById('email');
-    // const subjectEl = document.getElementById('subject');
-    // const messageEl = document.getElementById('message');
+    function sendEmail(e){
+        e.preventDefault();
+        emailjs.sendForm('service_tvfy8rs', 'template_ecn3q7k', e.target, 'Ls-qsO3Hz_I8qfJ7L')
+        .then(res=>{
+            alert('Message Successfully sent to Sahas.')
+            window.location.reload('http://localhost:3000/?#/Contact')
+        }).catch(err=>alert('An error occured, please try again'));
+    }
 
-    // function setError(ele,msg){
 
+    // const [values, setValues] = useState({name:'', email:'', subject:'', message:''})
+    // const [errors, setErrors] = useState({})
+
+    // function handleInput(e){
+    //     const newObj = {...values, [e.target.name]: e.target.value}
+    //     setValues(newObj)
     // }
-    const submit = () => {
-        window.alert("Message sent successfully")
-    } 
 
+    //  function handleValidation () {
+    //     setErrors(Validation(values)) ;
+    //  }
 
     return(
         <div>
@@ -22,58 +34,35 @@ export default function Components11(){
             </div>
 
             <div className="row" style={{marginLeft: "22%", marginTop: "60px"}}>
-                <div className="col-8 ">
+                <div className="col-md-8 ">
                     <h3>Message me</h3>
-                    <form className="needs-validation" noValidate>
+                    <form onSubmit={sendEmail}>
                     <div class="row mt-4">
                          <div class="col-6">
-                            <input type="text" class="form-control" placeholder="Name" id="name"></input>
+                            <input type="text" class="form-control" name='name' placeholder="Name" id="name" /*onChange={handleInput}*/></input>
                          </div>
-                         <div className="invalid-feedback">
-                            <p>Please enter your name</p>
-                         </div>
+                            {/* {errors.name && <p style={{color:'red'}}>{errors.name}</p>} */}
                          <div class="col-6">
-                             <input type="email" class="form-control" placeholder="Email" id="email" ></input>
+                             <input type="email" class="form-control" name='email' placeholder="Email" id="email" /*onChange={handleInput}*/></input>
                          </div>
-                         <div className="invalid-feedback">
-                            <p>Please enter your email id</p>
-                         </div>
+                            {/* {errors.email && <p style={{color:'red'}}>{errors.email}</p>} */}
                          <div class="col my-4">
-                             <input type="text" class="form-control" placeholder="Subject" id="subject"></input>
+                             <input type="text" class="form-control" placeholder="Subject" name='subject' id="subject" /*onChange={handleInput}*/></input>
                         </div>
-                        <div className="invalid-feedback">
-                            <p>Please enter the subject</p>
-                         </div>
+                             {/* {errors.subject && <p style={{color:'red'}}>{errors.subject}</p>} */}
                         <div class="input-group rows-4">
-                             <textarea class="form-control" placeholder="Message" id="message"></textarea>
+                             <textarea class="form-control" placeholder="Message" name='message' id="message" /*onChange={handleInput}*/></textarea>
                         </div>
-                        <div className="invalid-feedback">
-                            <p>Please enter your message</p>
-                         </div>
+                             {/* {errors.message && <p style={{color:'red'}}>{errors.message}</p>} */}
                         <div class="col-4 my-4" id="btnResponsive">
-                             <button class="btn btn-success rounded-pill" onClick={submit}>Send Message</button>
+                             <button class="btn btn-success rounded-pill" /*onClick={handleValidation}*/>Send Message</button>
                              {/* <input type='submit' className="btn btn-success rounded-pill" value='Send Message'/> */}
                         </div>
                     </div>
                     </form>
                 </div>
 
-{/* 
-                <div className="col-6">
-                     <h3>Contact Info</h3>
-                     <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
-                     <div className="row ms-2 my-4">
-                        <div className="col-2 ">
-                        <i class="fa-solid fa-user fa-2xl"></i>
-                        </div>
-                        <div className="col-10">
-                            <span style={{display: "grid", }}> 
-                                <p style={{fontSize:"18px"}}><b>Name</b></p>
-                                <p style={{fontSize:"14px"}}>Sahas K R</p>
-                            </span>
-                        </div>
-                     </div>
-                </div> */}
+
             </div>
         </div>
     )
