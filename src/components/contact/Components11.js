@@ -34,7 +34,7 @@ export default function Components11(){
             </div>
 
             <div className="row" style={{marginLeft: "22%", marginTop: "60px"}}>
-                <div className="col-md-8 ">
+                <div className="col-8 ">
                     <h3>Message me</h3>
                     <form onSubmit={sendEmail}>
                     <div class="row mt-4">
@@ -55,14 +55,29 @@ export default function Components11(){
                         </div>
                              {/* {errors.message && <p style={{color:'red'}}>{errors.message}</p>} */}
                         <div class="col-4 my-4" id="btnResponsive">
-                             <button class="btn btn-success rounded-pill" /*onClick={handleValidation}*/>Send Message</button>
+                             <button class="btn btn-success rounded-pill" /*onClick={handleValidation}*/>Send Message </button>
                              {/* <input type='submit' className="btn btn-success rounded-pill" value='Send Message'/> */}
                         </div>
                     </div>
                     </form>
                 </div>
 
-
+{/* 
+                <div className="col-6">
+                     <h3>Contact Info</h3>
+                     <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                     <div className="row ms-2 my-4">
+                        <div className="col-2 ">
+                        <i class="fa-solid fa-user fa-2xl"></i>
+                        </div>
+                        <div className="col-10">
+                            <span style={{display: "grid", }}> 
+                                <p style={{fontSize:"18px"}}><b>Name</b></p>
+                                <p style={{fontSize:"14px"}}>Sahas K R</p>
+                            </span>
+                        </div>
+                     </div>
+                </div> */}
             </div>
         </div>
     )

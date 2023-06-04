@@ -4,7 +4,7 @@ function Component1() {
   return (
     <div className="container1">
 
-      <nav class="navbar navbar-expand-lg navbar-light ">
+      <nav class="navbar navbar-expand-lg navbar-light " >
         <div class="container-fluid">
           {/* <a class="navbar-brand badge bg-light text-dark mx-3" href="/ReactPortfolio"> */}
           <Link className="navbar-brand badge bg-light text-dark mx-3" to="/">
